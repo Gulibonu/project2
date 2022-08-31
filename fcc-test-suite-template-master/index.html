@@ -11,9 +11,10 @@
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
-     Name= <input type="text" id="name" required>
-     Email Adress= <input type="email" id="email" required> 
-     Contact Number= <input type="number" id="number" required> 
+      <label for="name" id="name-label">Name=</label><input name="name" type="text" id="name" required placeholder="afrasiyab">
+     <label for="email" id="email-label">Email address=</label><input name="email" type="email" id="email" required placeholder="example@gmail.com"> 
+      <label for="number" id="number-label">Conatct Number=</label><input  name="number" type="number" id="number" required max="9" min="1" placeholder="+92181818"> 
+     
     </form>
     <!--
 
